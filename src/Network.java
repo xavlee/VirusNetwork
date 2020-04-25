@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class Network {
 	
-	protected int[][] adjWeighted;
+	protected int[][] adjWeighted; //adj[i][j] is the weight btwn i and j
 	
 	/**
 	 * Constructor for Network
