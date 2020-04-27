@@ -201,7 +201,7 @@ public class Network {
 			}
 		}
 		
-		System.out.println("Removed all weak ties for " + n);
+		// System.out.println("Removed all weak ties for " + n);
 	}
 	
 	/**
@@ -218,6 +218,14 @@ public class Network {
 			}
 		}
 		
-		System.out.println("Removed all Strong ties for " + n);
+		// System.out.println("Removed all Strong ties for " + n);
 	}
+
+	/**
+	 * Returns the number of nodes in the graph
+	 */
+	public int getSize() {
+		return adjWeighted.length;
+	}
+
 }
