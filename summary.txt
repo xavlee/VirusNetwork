@@ -1,0 +1,28 @@
+
+Our project is called Virus Network, an epidemic simulator that reads
+in data from a graph and runs a simulation of the epidemic unfolding. 
+It includes a GUI so you can view the spread over time, and it allows 
+you to set different parameters to change how the disease spreads. We 
+used this simulator to do some analysis on how different factors affect 
+the spread of disease. Our project is an implementation project, but we 
+used our code to do some empirical analysis as well.
+
+To run our simulation, you must run the main function within the 
+GUIVirus.java file. 
+
+Within the simulation, you can set these parameters: infection rate, 
+days of contagion, mortality rate, days to vaccination, testing capacity, 
+social distancing (true/false), and rate of essential workers. We took 
+these parameters from common affecting factors that we have observed in 
+the COVID-19 crisis. A green box is someone who is infected and 
+contagious, a white box is someone who is healthy and has not contracted 
+the virus, a yellow box is someone who has recovered from the virus, a 
+black box is someone who has died from the virus, and a red box is 
+someone who is quarantined. 
+
+For the division of labor, Xavier built the underlying network with 
+appropriately weighted strong and edge weights based on triadic closures 
+by reading in data from the Facebook network on Stanford’s Large Network 
+Dataset Collection, Alex wrote the code for the simulator’s algorithmic 
+graph traversal, and Zach created the GUI for the infection visualization. 
+We all collaborated on the writeup and empirical analysis. 
