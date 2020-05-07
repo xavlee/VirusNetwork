@@ -1,3 +1,4 @@
+Members : Zachary Arnold, Xavier Lee, Alexandra Shaw
 
 Our project is called Virus Network, an epidemic simulator that reads
 in data from a graph and runs a simulation of the epidemic unfolding. 
