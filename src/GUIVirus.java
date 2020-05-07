@@ -406,7 +406,7 @@ public class GUIVirus implements Runnable {
                         pop[i].setBackground(Color.green);
                     }
                     healthy.setText("healthy: " + (vs.net.getSize() - vs.transmitting.size() -
-                            vs.recovered.size() - vs.vaccinated.size() - vs.dead.size()));
+                            vs.recovered.size() - vs.dead.size()));
                     infected.setText("infected: " + vs.transmitting.size());
                     recovered.setText("recovered: " + vs.recovered.size());
                     dead.setText("dead: " + vs.dead.size());
